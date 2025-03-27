@@ -1,0 +1,215 @@
+body {
+    border-radius: 60px;
+    background: #0A1A32;
+    font-family: Poppins;
+
+    margin-top: 61px;
+
+    width: 100%;
+}
+
+/* Global settings - Layout  defined in 1440px*/
+.maxw {
+    max-width: 1750px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: repeat(12, 100px);
+    column-gap: 50px;
+}
+
+/* General setting - h, p, a, span, etc */
+h1 {
+    width: 642px;
+    height: 108px;
+    flex-shrink: 0;
+
+    color: #FFF;
+    font-size: 100px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+
+    margin-bottom: 19px;
+}
+
+h2 {
+    color: #EF9C9C;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    letter-spacing: 15px;
+
+    opacity: 0.5;
+
+    margin-bottom: 45px;
+}
+
+h3 {
+    color: #FFF;
+    text-align: center;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+h4 {
+    color: #FFF;
+    text-align: center;
+    font-size: 20px;
+    font-style: normal;
+    /* Google fonts didnt have this Poppins font weight*/
+    font-weight: 250;
+    line-height: normal;
+
+    margin-top: 0px;
+    margin-left: 150px;
+    margin-bottom: 0px;
+}
+
+a {
+    color: #FFF;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+
+    text-decoration: none;
+}
+
+p {
+    width: 532px;
+    height: 92px;
+    flex-shrink: 0;
+
+    color: #D8D8D8;
+    text-align: justify;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+
+    margin-bottom: 50px;
+}
+
+
+/* HEADER */
+.logo {
+    width: 228px;
+    height: 55.873px;
+    flex-shrink: 0;
+}
+
+/* HOME */
+.home-left {
+    grid-column: 1 / 6;
+}
+
+.home-right {
+    grid-column: 7 / -1;
+}
+
+.home-right>img {
+    width: 956px;
+    height: 910px;
+    flex-shrink: 0;
+}
+
+a {
+    color: #FFF;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+
+    text-decoration: none;
+}
+
+p {
+    width: 532px;
+    height: 92px;
+    flex-shrink: 0;
+
+    color: #D8D8D8;
+    text-align: justify;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+
+    margin-bottom: 50px;
+}
+
+.buy-now {
+    width: 128px;
+    height: 47px;
+    flex-shrink: 0;
+
+    border: 1px solid #000;
+    background: #F29494;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+}
+
+nav {
+    grid-column: 9 / -1;
+    display: grid;
+    grid-auto-flow: column;
+    gap: 50px;
+    justify-content: space-between;
+
+    width: 514px;
+    height: 47px;
+    flex-shrink: 0;
+}
+
+.options {
+    display: flex;
+    justify-content: flex-start;
+    gap: 37px;
+}
+
+.options>div {
+    width: 306px;
+    height: 372px;
+    flex-shrink: 0;
+
+    border-radius: 41px;
+    background: #2B3544;
+    box-shadow: 0px 0px 50px 0px rgba(0, 0, 0, 0.10);
+
+    padding-top: 17px;
+}
+
+.black>img,
+.white>img {
+    width: 299px;
+    height: 299px;
+    flex-shrink: 0;
+}
+
+
+
+p {
+    color: #D8D8D8;
+    text-align: justify;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+}
+
+nav>a {
+    color: #FFF;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
