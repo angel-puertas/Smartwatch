@@ -1,5 +1,9 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
 body {
-    border-radius: 60px;
     background: #0A1A32;
     font-family: Poppins;
 }
@@ -13,16 +17,21 @@ body {
 
 .grid {
     display: grid;
-    grid-template-columns: repeat(12, 100px);
+    grid-template-columns: repeat(12, minmax(0, 1fr));
     column-gap: 50px;
 }
 
-/* General settings */
-h1 {
-    width: 642px;
-    height: 108px;
-    flex-shrink: 0;
+.container {
+    padding-left: 200px;
+    padding-right: 90px;
+}
 
+/* General settings */
+header {
+    padding-top: 20px;
+}
+
+h1 {
     font-size: 100px;
     font-style: normal;
     font-weight: 700;
@@ -58,8 +67,7 @@ h4 {
     text-align: center;
     font-size: 20px;
     font-style: normal;
-    /* Google fonts didnt have this Poppins font weight*/
-    font-weight: 250;
+    font-weight: 300;
     line-height: normal;
 
     margin-top: 0px;
@@ -79,9 +87,8 @@ a {
 }
 
 p {
-    width: 532px;
+    max-width: 532px;
     height: 92px;
-    flex-shrink: 0;
 
     color: #D8D8D8;
     text-align: justify;
@@ -120,7 +127,6 @@ nav {
 .nav-list {
     width: 128px;
     height: 47px;
-    flex-shrink: 0;
 
     display: flex;
     justify-content: center;
@@ -151,7 +157,6 @@ nav {
 .options>div {
     width: 306px;
     height: 372px;
-    flex-shrink: 0;
 
     border-radius: 41px;
     background: #2B3544;
@@ -164,5 +169,4 @@ nav {
 .white>img {
     width: 299px;
     height: 299px;
-    flex-shrink: 0;
 }
