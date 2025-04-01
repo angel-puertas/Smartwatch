@@ -71,7 +71,7 @@ h4 {
     line-height: normal;
 
     margin-top: 0px;
-    margin-left: 150px;
+    margin-left: 130px;
     margin-bottom: 0px;
 }
 
@@ -165,7 +165,7 @@ nav {
     padding-top: 17px;
 }
 
-.black>img,
+.dark>img,
 .white>img {
     width: 299px;
     height: 299px;
